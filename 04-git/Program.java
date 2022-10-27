@@ -1,6 +1,6 @@
 public class ModBlocks {
-    public static final RegistryObject<Block> SILVER_ORE = register("silver_ore", () ->
-        new Block(new AbstractBlock.Properties.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> GOLD_ORE = register("gold_ore", () ->
+        new Block(new AbstractBlock.Properties.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.DIRT)));
 
     static void register() {}
 
