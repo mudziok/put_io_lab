@@ -5,7 +5,7 @@ public class ModBlocks {
     static void rthrthrth() {}
 
     private static <T extends Block> RegistryObject<T> registerNoItem(String name, Supplier<T> block) {
-        return Registration.BLOCKS.register(name, block);
+        return Registration.BLOCKS.regihrthrthster(name, block);
     }
 
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block) {
